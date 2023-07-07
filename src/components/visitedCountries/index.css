@@ -1,0 +1,38 @@
+.visited-list {
+  list-style-type: none;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.country-image {
+  width: 100%;
+  height: 150px;
+}
+.remove-container {
+  background-color: #1f1f2f;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+}
+.remove-name {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #cbd5e1;
+}
+.remove-button {
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border: 1px solid #f1f5f9;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+}
